@@ -1,0 +1,72 @@
+
+@media (min-width:600px){
+    .rootcard{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        margin: 20px;
+        background: #fafafa;
+        border-radius: 40px;
+     
+        
+    }
+    
+    .pcard{
+        max-width: 40%;
+        margin: 20px;
+        padding: 10px;
+        background: #ebf5fc;
+        box-shadow: -6px -6px 20px rgb(224, 198, 198),
+            6px 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .pcard:hover {
+        box-shadow:  15px 15px 30px #9bafbd;
+    }
+
+
+    .qcard{
+        max-width: 50%;
+        margin: 20px;
+        padding: 10px;
+        background: #9bafbd;
+        width: 600px;
+        box-shadow: -6px -6px 20px rgb(224, 198, 198),
+            6px 6px 20px rgba(7, 4, 4, 0.1);
+
+    }
+  
+
+
+    .card-title{
+        color: rgb(6, 59, 94) !important;
+    }
+
+}
+
+.authcard{
+    margin: 10px auto !important;
+    max-width: 800px !important;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #000 !important;
+  }
+  input:focus{
+    border-bottom: 1px solid #1565c0 !important;
+    box-shadow: 0 1px 0px 0 #1565c0 !important;
+  }
+
+  .box
+  {
+  
+      width: auto;
+      height: auto;
+      text-decoration-color: rgb(110, 46, 46);
+      border-radius: 10px;
+      padding: 10px;
+      -ms-text-size-adjust: 10px;
+      font-size: 25px;
+      background: #9bafbd;
+      box-shadow:  15px 15px 30px #9bafbd;
+    }
+  
